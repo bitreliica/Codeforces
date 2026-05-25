@@ -1,4 +1,5 @@
 import java.io.InputStream
+import java.lang.StringBuilder
 
 class FastScanner(private val stream: InputStream) {
     private val buffer = ByteArray(1024)
@@ -36,7 +37,7 @@ fun main() {
     val t = scanner.nextInt()
     if (t == -1) return
     
-    val out = java.lang.StringBuilder()
+    val out = StringBuilder()
     val MOD = 998244353
     val MAXN = 200005
     
